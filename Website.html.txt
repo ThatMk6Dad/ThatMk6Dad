@@ -1,0 +1,419 @@
+Website.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThatMk6Dad Car Detailing - Mobile Auto Detailing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles for the Inter font */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Custom scrollbar for better aesthetics */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased">
+
+    <header class="bg-gray-900 text-white p-4 shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto flex flex-col sm:flex-row justify-between items-center">
+            <a href="#" class="text-3xl font-bold tracking-tight mb-2 sm:mb-0 rounded-md p-2 hover:bg-gray-800 transition-colors">ThatMk6Dad</a>
+            <nav>
+                <ul class="flex flex-wrap justify-center gap-4 text-lg">
+                    <li><a href="#services" class="hover:text-blue-400 transition-colors rounded-md p-2">Services</a></li>
+                    <li><a href="#pricing" class="hover:text-blue-400 transition-colors rounded-md p-2">Pricing</a></li>
+                    <li><a href="#ceramic-coatings" class="hover:text-blue-400 transition-colors rounded-md p-2">Ceramic Coatings</a></li>
+                    <li><a href="#car-care-tips" class="hover:text-blue-400 transition-colors rounded-md p-2">Car Care Tips</a></li>
+                    <li><a href="#contact" class="hover:text-blue-400 transition-colors rounded-md p-2">Book Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="relative bg-gradient-to-r from-blue-600 to-indigo-800 text-white py-20 md:py-32 overflow-hidden shadow-xl">
+        <div class="absolute inset-0 z-0 opacity-20">
+            <img src="https://placehold.co/1920x1080/000000/FFFFFF?text=Premium+Car+Detailing" alt="Car Detailing Background" class="w-full h-full object-cover">
+        </div>
+        <div class="container mx-auto text-center relative z-10 px-4">
+            <h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-6 drop-shadow-lg">
+                ThatMk6Dad Car Detailing
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto drop-shadow-md">
+                Premium Mobile Auto Detailing - We bring the shine to your driveway!
+            </p>
+            <a href="#contact" class="inline-block bg-white text-blue-700 hover:bg-gray-200 transition-all duration-300 text-xl font-semibold py-4 px-8 rounded-full shadow-lg transform hover:scale-105">
+                Get Your Free Estimate Today!
+            </a>
+        </div>
+    </section>
+
+    <section id="services" class="py-16 md:py-24 bg-white px-4">
+        <div class="container mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-12 text-gray-900">Our Mobile Detailing Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col items-center text-center">
+                    <img src="https://placehold.co/100x100/000000/FFFFFF?text=Exterior" alt="Exterior Detailing Icon" class="w-24 h-24 mb-6 rounded-full object-cover">
+                    <h3 class="text-2xl font-semibold mb-4 text-gray-900">Exterior Detail</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Thorough wash, decontamination, paint sealant application, tire dressing, and streak-free windows.
+                    </p>
+                    <ul class="list-disc list-inside text-left text-gray-600 mt-4 space-y-1">
+                        <li>Hand Wash & Dry</li>
+                        <li>Clay Bar Treatment</li>
+                        <li>Paint Sealant (3-6 months protection)</li>
+                        <li>Wheel & Tire Cleaning</li>
+                        <li>Window Cleaning</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col items-center text-center">
+                    <img src="https://placehold.co/100x100/000000/FFFFFF?text=Interior" alt="Interior Detailing Icon" class="w-24 h-24 mb-6 rounded-full object-cover">
+                    <h3 class="text-2xl font-semibold mb-4 text-gray-900">Interior Detail</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Deep cleaning of all interior surfaces, vacuuming, stain removal, and conditioning.
+                    </p>
+                    <ul class="list-disc list-inside text-left text-gray-600 mt-4 space-y-1">
+                        <li>Vacuuming & Dusting</li>
+                        <li>Stain & Spot Treatment</li>
+                        <li>Surface Wiping & Conditioning</li>
+                        <li>Leather Cleaning & Conditioning</li>
+                        <li>Door Jambs Cleaned</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col items-center text-center">
+                    <img src="https://placehold.co/100x100/000000/FFFFFF?text=Full+Detail" alt="Full Detailing Icon" class="w-24 h-24 mb-6 rounded-full object-cover">
+                    <h3 class="text-2xl font-semibold mb-4 text-gray-900">Full Detail Package</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Our most popular package combining comprehensive exterior and interior detailing for a complete transformation.
+                    </p>
+                    <ul class="list-disc list-inside text-left text-gray-600 mt-4 space-y-1">
+                        <li>Includes all Exterior Detail services</li>
+                        <li>Includes all Interior Detail services</li>
+                        <li>Engine Bay Cleaning (Optional Add-on)</li>
+                        <li>Odor Removal (Optional Add-on)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="py-16 md:py-24 bg-blue-50 px-4">
+        <div class="container mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-12 text-gray-900">Our Pricing</h2>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <h3 class="text-3xl font-bold text-center mb-8 text-gray-900">Detailing Packages</h3>
+                    <ul class="space-y-6">
+                        <li class="flex justify-between items-center border-b pb-4 border-gray-200 last:border-b-0 last:pb-0">
+                            <div>
+                                <p class="text-xl font-semibold text-gray-800">Basic Wash</p>
+                                <p class="text-gray-600 text-sm">Quick exterior clean</p>
+                            </div>
+                            <span class="text-xl font-bold text-blue-700">$30 - $50</span>
+                        </li>
+                        <li class="flex justify-between items-center border-b pb-4 border-gray-200 last:border-b-0 last:pb-0">
+                            <div>
+                                <p class="text-xl font-semibold text-gray-800">Deluxe Detail</p>
+                                <p class="text-gray-600 text-sm">Exterior and light interior clean</p>
+                            </div>
+                            <span class="text-xl font-bold text-blue-700">$100 - $150</span>
+                        </li>
+                        <li class="flex justify-between items-center border-b pb-4 border-gray-200 last:border-b-0 last:pb-0">
+                            <div>
+                                <p class="text-xl font-semibold text-gray-800">Premium Detail</p>
+                                <p class="text-gray-600 text-sm">Comprehensive exterior and interior</p>
+                            </div>
+                            <span class="text-xl font-bold text-blue-700">$250 - $350</span>
+                        </li>
+                        <li class="flex justify-between items-center">
+                            <div>
+                                <p class="text-xl font-semibold text-gray-800">Showroom Shine</p>
+                                <p class="text-gray-600 text-sm">Full restoration, ceramic ready</p>
+                            </div>
+                            <span class="text-xl font-bold text-blue-700">$400 - $600</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <h3 class="text-3xl font-bold text-center mb-8 text-gray-900">Add-ons & Discounts</h3>
+                    <div class="mb-8">
+                        <h4 class="text-2xl font-semibold mb-4 text-gray-800">Add-ons</h4>
+                        <ul class="space-y-4">
+                            <li class="flex justify-between items-center border-b pb-3 border-gray-200 last:border-b-0 last:pb-0">
+                                <p class="text-lg text-gray-700">Headlight Restoration</p>
+                                <span class="text-lg font-bold text-blue-700">$50 - $100</span>
+                            </li>
+                            <li class="flex justify-between items-center">
+                                <p class="text-lg text-gray-700">Ceramic Coating</p>
+                                <span class="text-lg font-bold text-blue-700">$300 - $700</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4 class="text-2xl font-semibold mb-4 text-gray-800">Discounts</h4>
+                        <ul class="space-y-4">
+                            <li class="flex justify-between items-center border-b pb-3 border-gray-200 last:border-b-0 last:pb-0">
+                                <p class="text-lg text-gray-700">Multiple Vehicles</p>
+                                <span class="text-lg font-bold text-green-600">10% - 20% off</span>
+                            </li>
+                            <li class="flex justify-between items-center">
+                                <p class="text-lg text-gray-700">Referrals</p>
+                                <span class="text-lg font-bold text-green-600">10% - 15% off</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center text-gray-600 mt-12 text-lg">
+                *Prices may vary based on vehicle size, condition, and specific requirements. Contact us for a personalized estimate!
+            </p>
+        </div>
+    </section>
+
+    <section id="ceramic-coatings" class="py-16 md:py-24 bg-blue-700 text-white px-4 shadow-inner">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-8">Advanced Ceramic Coatings</h2>
+            <p class="text-xl md:text-2xl mb-12 max-w-4xl mx-auto leading-relaxed">
+                Experience unparalleled protection and shine with our professional ceramic coating applications.
+                Long-lasting durability, enhanced gloss, and effortless maintenance.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-blue-800 p-8 rounded-xl shadow-lg flex flex-col items-center text-center">
+                    <img src="https://placehold.co/80x80/FFFFFF/000000?text=💧" alt="Water Repellent Icon" class="w-20 h-20 mb-6 rounded-full object-cover">
+                    <h3 class="text-2xl font-semibold mb-4">Superior Protection</h3>
+                    <p class="text-blue-100">
+                        Shield your vehicle's paint from UV rays, environmental contaminants, and minor scratches.
+                    </p>
+                </div>
+                <div class="bg-blue-800 p-8 rounded-xl shadow-lg flex flex-col items-center text-center">
+                    <img src="https://placehold.co/80x80/FFFFFF/000000?text=✨" alt="Gloss Icon" class="w-20 h-20 mb-6 rounded-full object-cover">
+                    <h3 class="text-2xl font-semibold mb-4">Unmatched Gloss</h3>
+                    <p class="text-blue-100">
+                        Achieve a deep, mirror-like finish that enhances your car's aesthetic appeal.
+                    </p>
+                </div>
+            </div>
+            <button id="ceramicInfoBtn" class="inline-block bg-white text-blue-700 hover:bg-gray-200 transition-all duration-300 text-xl font-semibold py-4 px-8 rounded-full shadow-lg mt-12 transform hover:scale-105">
+                ✨ Learn More About Ceramic Coatings
+            </button>
+            <div id="ceramicInfoOutput" class="mt-8 p-6 bg-blue-800 rounded-lg shadow-md text-left hidden">
+                <p class="text-blue-100 text-lg leading-relaxed" id="ceramicInfoText">
+                    </p>
+                <div id="ceramicInfoLoading" class="hidden text-center mt-4">
+                    <div class="animate-spin rounded-full h-8 w-8 border-b-2 border-white mx-auto"></div>
+                    <p class="text-blue-200 mt-2">Generating explanation...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="car-care-tips" class="py-16 md:py-24 bg-gray-50 px-4">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-12">Car Care Tips</h2>
+            <p class="text-lg text-gray-700 mb-8 max-w-3xl mx-auto">
+                Get quick and helpful tips to keep your vehicle looking its best between professional details!
+            </p>
+            <button id="generateTipBtn" class="inline-block bg-blue-700 text-white hover:bg-blue-800 transition-colors duration-300 text-xl font-semibold py-4 px-8 rounded-full shadow-lg transform hover:scale-105">
+                ✨ Get a Car Care Tip
+            </button>
+            <div id="tipOutput" class="mt-8 p-6 bg-white rounded-lg shadow-md text-left hidden">
+                <p class="text-gray-800 text-lg leading-relaxed" id="tipText">
+                    </p>
+                <div id="tipLoading" class="hidden text-center mt-4">
+                    <div class="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-700 mx-auto"></div>
+                    <p class="text-gray-600 mt-2">Generating tip...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 md:py-24 bg-gray-50 px-4">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-12">Additional Offerings</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col items-center text-center">
+                    <img src="https://placehold.co/60x60/CCCCCC/333333?text=💡" alt="Headlight Icon" class="w-16 h-16 mb-4 rounded-full object-cover">
+                    <h3 class="text-xl font-semibold mb-2 text-gray-900">Headlight Restoration</h3>
+                    <p class="text-gray-700">Restore clarity and visibility to foggy headlights.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col items-center text-center">
+                    <img src="https://placehold.co/60x60/CCCCCC/333333?text=🎨" alt="Paint Correction Icon" class="w-16 h-16 mb-4 rounded-full object-cover">
+                    <h3 class="text-xl font-semibold mb-2 text-gray-900">Paint Correction</h3>
+                    <p class="text-gray-700">Remove swirls, scratches, and imperfections for a flawless finish.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col items-center text-center">
+                    <img src="https://placehold.co/60x60/CCCCCC/333333?text=💨" alt="Odor Removal Icon" class="w-16 h-16 mb-4 rounded-full object-cover">
+                    <h3 class="text-xl font-semibold mb-2 text-gray-900">Odor Removal</h3>
+                    <p class="text-gray-700">Eliminate stubborn odors from your vehicle's interior.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col items-center text-center">
+                    <img src="https://placehold.co/60x60/CCCCCC/333333?text=⚙️" alt="Engine Bay Icon" class="w-16 h-16 mb-4 rounded-full object-cover">
+                    <h3 class="text-xl font-semibold mb-2 text-gray-900">Engine Bay Cleaning</h3>
+                    <p class="text-gray-700">Safely clean and dress your engine compartment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-16 md:py-24 bg-gray-900 text-white px-4">
+        <div class="container mx-auto max-w-2xl">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-12">Book Your Detail!</h2>
+            <p class="text-lg text-center mb-8 text-gray-300">
+                Ready for a showroom shine? Fill out the form below to get a free estimate or schedule your mobile detailing service. We'll get back to you within 24 hours.
+            </p>
+            <form class="bg-white p-8 rounded-xl shadow-lg text-gray-800">
+                <div class="mb-6">
+                    <label for="name" class="block text-lg font-medium mb-2">Your Name</label>
+                    <input type="text" id="name" name="name" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500" placeholder="John Doe" required>
+                </div>
+                <div class="mb-6">
+                    <label for="email" class="block text-lg font-medium mb-2">Your Email</label>
+                    <input type="email" id="email" name="email" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500" placeholder="john.doe@example.com" required>
+                </div>
+                <div class="mb-6">
+                    <label for="phone" class="block text-lg font-medium mb-2">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500" placeholder="(Optional) Your phone number">
+                </div>
+                <div class="mb-6">
+                    <label for="service" class="block text-lg font-medium mb-2">Interested Service</label>
+                    <select id="service" name="service" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500" required>
+                        <option value="">Select a Service</option>
+                        <option value="exterior">Exterior Detail</option>
+                        <option value="interior">Interior Detail</option>
+                        <option value="full">Full Detail Package</option>
+                        <option value="ceramic">Ceramic Coating</option>
+                        <option value="headlight">Headlight Restoration</option>
+                        <option value="paint_correction">Paint Correction</option>
+                        <option value="odor_removal">Odor Removal</option>
+                        <option value="engine_bay">Engine Bay Cleaning</option>
+                        <option value="other">Other (Please specify in message)</option>
+                    </select>
+                </div>
+                <div class="mb-6">
+                    <label for="message" class="block text-lg font-medium mb-2">Your Message</label>
+                    <textarea id="message" name="message" rows="5" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500" placeholder="Tell us about your vehicle and what you're looking for..."></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="bg-blue-700 text-white hover:bg-blue-800 transition-colors duration-300 text-xl font-semibold py-4 px-10 rounded-full shadow-lg transform hover:scale-105">
+                        Send Request
+                    </button>
+                </div>
+            </form>
+            <div id="messageBox" class="hidden mt-8 p-4 bg-green-100 text-green-800 rounded-lg shadow-md text-center">
+                Your request has been sent successfully! We will contact you soon.
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-8 px-4">
+        <div class="container mx-auto text-center text-sm md:text-base">
+            <p>&copy; 2025 ThatMk6Dad Car Detailing. All rights reserved.</p>
+            <p class="mt-2">
+                <a href="#" class="hover:text-blue-400 transition-colors">Privacy Policy</a> |
+                <a href="#" class="hover:text-blue-400 transition-colors">Terms of Service</a>
+            </p>
+            <p class="mt-4 text-gray-400">
+                Contact: <a href="mailto:thatmk6dad@gmail.com" class="hover:text-blue-400 transition-colors">thatmk6dad@gmail.com</a>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for handling form submission (client-side only, no actual backend)
+        document.querySelector('form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent default form submission
+
+            const messageBox = document.getElementById('messageBox');
+            messageBox.classList.remove('hidden'); // Show the message box
+            messageBox.classList.remove('bg-red-100', 'text-red-800');
+            messageBox.classList.add('bg-green-100', 'text-green-800');
+            messageBox.textContent = 'Your request has been sent successfully! We will contact you soon.';
+
+            // Optionally, clear the form after submission
+            this.reset();
+
+            // Hide the message after a few seconds
+            setTimeout(() => {
+                messageBox.classList.add('hidden');
+            }, 5000);
+        });
+
+        // Function to call Gemini API
+        async function callGeminiAPI(prompt, outputElementId, loadingElementId) {
+            const outputElement = document.getElementById(outputElementId);
+            const loadingElement = document.getElementById(loadingElementId);
+
+            outputElement.classList.add('hidden'); // Hide previous output
+            loadingElement.classList.remove('hidden'); // Show loading indicator
+            outputElement.textContent = ''; // Clear previous text
+
+            let chatHistory = [];
+            chatHistory.push({ role: "user", parts: [{ text: prompt }] });
+
+            const payload = { contents: chatHistory };
+            const apiKey = ""; // Leave as empty string, Canvas will provide it
+            const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
+
+            try {
+                const response = await fetch(apiUrl, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+                const result = await response.json();
+
+                if (result.candidates && result.candidates.length > 0 &&
+                    result.candidates[0].content && result.candidates[0].content.parts &&
+                    result.candidates[0].content.parts.length > 0) {
+                    const text = result.candidates[0].content.parts[0].text;
+                    outputElement.textContent = text;
+                    outputElement.classList.remove('hidden'); // Show the generated text
+                } else {
+                    outputElement.textContent = 'Sorry, I could not generate a response. Please try again.';
+                    outputElement.classList.remove('hidden');
+                }
+            } catch (error) {
+                console.error('Error calling Gemini API:', error);
+                outputElement.textContent = 'An error occurred while fetching data. Please try again later.';
+                outputElement.classList.remove('hidden');
+            } finally {
+                loadingElement.classList.add('hidden'); // Hide loading indicator
+            }
+        }
+
+        // Event listener for "Get a Car Care Tip" button
+        document.getElementById('generateTipBtn').addEventListener('click', function() {
+            const prompt = "Provide a concise and helpful car care tip (1-2 sentences) for maintaining a vehicle's appearance. Do not include any introductory or concluding phrases, just the tip itself.";
+            callGeminiAPI(prompt, 'tipText', 'tipLoading');
+            document.getElementById('tipOutput').classList.remove('hidden'); // Ensure the output container is visible
+        });
+
+        // Event listener for "Learn More About Ceramic Coatings" button
+        document.getElementById('ceramicInfoBtn').addEventListener('click', function() {
+            const prompt = "Explain what ceramic coatings are for cars and their main benefits in a simple, easy-to-understand paragraph (3-4 sentences). Focus on protection, shine, and maintenance. Do not include any introductory or concluding phrases.";
+            callGeminiAPI(prompt, 'ceramicInfoText', 'ceramicInfoLoading');
+            document.getElementById('ceramicInfoOutput').classList.remove('hidden'); // Ensure the output container is visible
+        });
+    </script>
+</body>
+</html>
